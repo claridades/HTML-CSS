@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="/imagens/health-icon.png"
+      type="image/x-icon"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      h1 {
+        font-size: 24px;
+        margin-bottom: 24px;
+        color: blue;
+        text-align: center;
+      }
+      h2 {
+        font-size: 18px;
+        margin-bottom: 16px;
+        color: cornflowerblue;
+        background-color: aliceblue;
+        border-bottom: 4px black solid;
+        text-align: center;
+      }
+      p {
+        font-size: 12px;
+        margin-bottom: 8px;
+        color: rgb(4, 32, 117);
+      }
+      main {
+        padding: 10px;
+        margin: auto;
+      }
+      img {
+        width: 100%;
+        margin: auto;
+        display: block;
+        border: 4px solid lightcyan;
+        border-radius: 8px;
+      }
+      .embed-responsive {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow: hidden;
+        max-width: 100%;
+        z-index: 1;
+      }
+      .embed-responsive iframe,
+      .embed-responsive object,
+      .embed-responsive embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+      #gallery img {
+        aspect-ratio: 16/9;
+        margin-bottom: 16px;
+      }
+      .container {
+        padding-left: 4px;
+        padding-right: 4px;
+      }
+    @media (min-width: 768px) {
+        h1{
+          font-size: 28px;
+          margin-bottom: 36px;
+        }
+        h2{
+          font-size: 22px;
+          margin-bottom: 20px;
+        }
+        p{
+          font-size: 14px;
+          margin-bottom: 12px;
+        }
+        #gallery{
+          display: flex;
+          flex-wrap: wrap;
+          gap: 16px;
+        }
+        #gallery img{
+          width: 48%;
+        }
+        }
+      @media (min-width: 1280px) {
+        h1{
+          font-size: 32px;
+          margin-bottom: 48px;
+        }
+        h2{
+          font-size: 28px;
+          margin-bottom: 24px;
+        }
+        p{
+          font-size: 16px;
+          margin-bottom: 16px;
+        }
+        #gallery img{
+          width: 20%;
+        }
+        .container{
+          width: 1200px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+    </style>
+  </head>
+  <div class="container">
+    <body>
+      <main>
+        <img
+          src="/imagens/sus-logo-0.png"
+          style="width: 200px; height: 100px"
+        />
+        <h1>Sistema Único de Saúde</h1>
+        <img
+          src="/imagens/universalidade.jpeg"
+          class="pequena"
+          alt="Universalidade"
+        />
+        <p></p>
+          O <b>SUS</b> é um conjunto de ações e serviço de saúde oferecidos no
+          Brasil, mantidos pelo próprio poder público.
+        </p>
+        <h2>Como o SUS funciona?</h2>
+        <img
+          style="
+            max-height: 300px !important;
+            width: 100% !important;
+          "
+          src="/imagens/participacao social.jpeg"
+        />
+        <p>
+          Funciona como uma esfera de várias intituições, dos três níveis de
+          governo (municipal, estadual e federal), do setor público e
+          conveniado, que se interagem para um fim comum: a saúde da população.
+        </p>
+        <h2>Princípios do SUS</h2>
+        <h3>Ideológicos:</h3>
+        <p>
+          <strong>Universalidade</strong>: A saúde é uma direito universal de
+          todos. Cabe ao Estado essa função.
+        </p>
+        <p>
+          <strong>Equidade</strong>: Fornece mais para quem precisa de mais, de
+          forma imparcial.
+        </p>
+        <p>
+          <strong>Integralidade</strong>: Considera o indivíduo como um todo,
+          observando as suas necessidades, promovendo promoçao, prevenção,
+          tratamento e reabilitação.
+        </p>
+        <h3>Organizacionais:</h3>
+        <p>
+          <strong>Regionalização:</strong> cada região é responsável pelas
+          atividades desenvolvidas ali.
+        </p>
+        <p>
+          <strong>Decentralização:</strong> dividido por esferas mas, uma esfera
+          não intervém na outra.
+        </p>
+        <p>
+          <strong>Hierarquização:</strong> cada esfera tem responsabilidades
+          específicas.
+        </p>
+        <p>
+          <strong>Participação social:</strong> a sociedade sabe a necessidade
+          do local, pois é ela que usufrui dos serviços de SUS.
+        </p>
+        <img src="/imagens/sus-veja.webp" alt="arte Participação social" />
+        <h2>Níveis de complexidade de atendimento do SUS</h2>
+        <h3>Nível Primário:</h3>
+        <p>
+          Contato inicial com o SUS, a "porta d eentrada". Serviços ofertados em
+          postos de saúde, com a Estratégia de Saúde da Família (ESF). Oferece
+          prevenção, tratamento de ferimentos, vacinas, redução de riscos e
+          cuidados com doenças, além de atendimento médico, pediátrico,
+          obstétrico, ginecológico, odontológico e assistência de enfermagem.
+        </p>
+        <h3>Nível Secundário:</h3>
+        <p>
+          Atenção de média complexidade. Possibilita contato com profissionais
+          mais especializados e recursos mais tecnológicos. Oferece
+          procedimentos Traumato-ortopédicos, ações especializadas em
+          odontologia, radiodiagnóstico, exames ultrassonográficos,
+          fisioterapia, nutraição e outros.
+        </p>
+        <h3>Nível Terciário</h3>
+        <p>
+          Atenção de alta complexidade. Dispõe de alta tecnologia e alto custo,
+          e oferece procedimentos como cirurgias, neurocirurgias,
+          quimioterapias, radioterapias, diálise, transplantes e outros.
+        </p>
+        <img
+          style="max-height: 300px !important; max-width: 60% !important"
+          src="https://moodle.unasus.gov.br/vitrine29/pluginfile.php/2530/mod_resource/content/1/ebook/media/imagens/pag4_img1.png"
+        /><br /><br />
+        <section class="embed-responsive">
+          <iframe
+            src="https://www.youtube.com/embed/YJaEz2qBveY?si=PVzzfuqsNv7Aznyo"
+          ></iframe>
+        </section>
+        <h2>Galeria de imagens</h2>
+        <div id="gallery">
+          <img src="/imagens/universalidade.jpeg" alt="Pessoas vacinadas" />
+          <img
+            src="/imagens/participacao social.jpeg"
+            alt="punhos cerrados acima"
+          />
+          <img
+            src="/imagens/sus-veja.webp"
+            alt="arte pop Participação social"
+          />
+          <img
+            src="https://moodle.unasus.gov.br/vitrine29/pluginfile.php/2530/mod_resource/content/1/ebook/media/imagens/pag4_img1.png"
+            alt="piramide de niveis de complexidade"
+          />
+        </div>
+      </main>
+    </body>
+  </div>
+</html>
